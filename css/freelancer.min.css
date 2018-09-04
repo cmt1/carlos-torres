@@ -117,7 +117,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: #E9E581
+    color: #DE1B1B
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
@@ -126,7 +126,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-    color: #E9E581
+    color: #DE1B1B
 }
 
 #mainNav .navbar-toggler {
@@ -200,7 +200,8 @@ header.masthead h2 {
 }
 
 .portfolio {
-    margin-bottom: -15px
+    margin-bottom: -15px;
+        background-color: #F6F6F6
 }
 
 .portfolio .portfolio-item {
@@ -343,7 +344,7 @@ a {
 a:active,
 a:focus,
 a:hover {
-    color: #2B2B2B
+    color: #2B2B2B;
 }
 
 .btn {
@@ -367,8 +368,8 @@ a:hover {
 }
 
 .btn-primary {
-    background-color: #DE1B1B;
-    border-color: #DE1B1B
+    background-color: #2B2B2B;
+    border-color: #2B2B2B
 }
 
 .btn-primary:active,
@@ -389,3 +390,7 @@ a:hover {
     background-color: #1a252f;
     border-color: #1a252f
 }
+section#contact {
+     background-color: #F6F6F6;
+}
+
