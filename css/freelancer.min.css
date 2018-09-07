@@ -393,4 +393,10 @@ a:hover {
 section#contact {
      background-color: #F6F6F6;
 }
+img.rounded-circle.img-fluid.mb-5.d-block.mx-auto {
+    filter: grayscale(100%);
+}
+img.rounded-circle.img-fluid.mb-5.d-block.mx-auto:hover {
+    filter:none;
+}
 
